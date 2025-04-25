@@ -1,0 +1,57 @@
+; Example resistance matrix for Traversability metric
+; B. Compton, 27 Feb 2012
+
+class	resistance	focal	name
+1	10	0	Commercial
+2	10	0	Industrial
+3	5	0	Urban open
+4	5	0	Urban public
+5	10	0	Transportation
+6	5	0	Mining
+7	5	0	Waste disposal
+8	5	0	Junkyard
+10	10	0	Multi-family residential
+11	8	0	High-density residential
+12	5	0	Medium-density residential
+13	3	0	Low-density residential
+20	10	0	Spectator recreation
+21	3	0	Participatory recreation
+22	3	0	Golf
+23	5	0	Water based recreation
+24	5	0	Marina
+30	3	0	Cropland
+31	5	0	Cranberry bog
+32	3	0	Nursery
+33	2	0	Orchard
+34	2	0	Cemetery
+35	2	0	Pasture
+36	2	0	Powerline shrubland
+37	1	0	Open land
+40	1	1	Forest
+41	1	1	Forested wetland
+44	1	1	Shrub swamp
+45	1	1	Bog
+46	1	1	Shallow marsh
+47	1	1	Deep marsh
+48	1	1	Vernal pool
+50	1	1	Water (lentic)
+51	1	1	Water (lotic)
+60	1	1	Sea cliff
+61	1	1	Vegetated dune
+62	1	1	Coastal dune
+63	1	1	Coastal beach
+70	1	1	Salt marsh
+71	5	0	Tidal flat
+72	5	0	Rocky intertidal
+74	10	0	Ocean
+81	30	0	Expressway
+82	20	0	Primary highway
+83	20	0	Secondary highway
+84	15	0	Light duty road
+85	10	0	Unpaved road
+90	10	0	Railroad
+91	5	0	Abandoned railbed
+92	5	0	Rail trail
+
+
+; all other landcover types have resistance of 1

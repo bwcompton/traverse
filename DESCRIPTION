@@ -1,0 +1,27 @@
+Package: traverse
+Type: Package
+Title: CAPS Traversability Metric to Assess Local Connectedness with Resistant Kernels
+Version: 2.0.0
+Author: Bradley W. Compton
+Maintainer: Bradley W. Compton <bcompton@umass.edu>
+Description: CAPS (Conservation Assessment and Prioritization System) traversability metric (also
+    known as old-style connectedness and local connectedness).  Builds a resistant kernel
+    for each focal cell in landcover using resistances supplied in a table.  In normal
+    mode, each focal cell gets the sum of the volume of a resistant kernel built on that
+    cell, divided by the sum of a standard kernel built on that cell.  This gives a measure
+    of local connectedness for each focal (usually undeveloped) cell in the landscape.
+    Alternatively, example points may be specified, and resistant kernels are built for
+    each example cell; these kernels are summed where they overlap.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+	gridprocess,
+	raster,
+	spatial,
+	rgdal,
+	rgeos,
+	utils,
+	stats
